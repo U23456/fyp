@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/budget"
+    tools:context=".Bud">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/num1"
+        android:textSize="20sp"
+        android:hint="budget"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/num2"
+        android:textSize="20sp"
+        android:hint="actual expence"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Result"
+        android:id="@+id/result"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bt_bud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="budget calculate"
+        />
+</LinearLayout>
