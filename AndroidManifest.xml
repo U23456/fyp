@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eventplanner">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.Myapplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.detailpakistan"></activity>
+        <activity android:name="com.detailmezban" />
+        <activity android:name="com.detaildaniyal" />
+        <activity android:name="com.detailhadery" />
+        <activity android:name="com.detailhanif" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.locdaniyal"
+            android:label="@string/title_activity_locdaniyal" />
+        <activity
+            android:name="com.locmezban"
+            android:label="@string/title_activity_locmezban" />
+        <activity
+            android:name="com.locpakistan"
+            android:label="@string/title_activity_locpakistan" />
+        <activity
+            android:name="com.lochaidery"
+            android:label="@string/title_activity_lochaidery" />
+        <activity
+            android:name="com.lochanif"
+            android:label="@string/title_activity_lochanif" />
+        <activity android:name="com.phonemezbab" />
+        <activity android:name="com.phonemezban" />
+        <activity android:name="com.phonehadery" />
+        <activity android:name="com.phonepakistan" />
+        <activity android:name="com.phonehanif" />
+        <activity android:name="com.newdaniyaltentservice" />
+        <activity android:name="com.dmezban" />
+        <activity android:name="com.dhaderycatering" />
+        <activity android:name="com.dpakistancatering" />
+        <activity android:name="com.dhanifcatering" />
+        <activity android:name="com.detsilkeyani" />
+        <activity android:name="com.detailshiraz" />
+        <activity android:name="com.detailhaveli" />
+        <activity android:name="com.detailcocochan" />
+        <activity
+            android:name="com.lockeyanirestrutrant"
+            android:label="@string/title_activity_lockeyanirestrutrant" />
+        <activity
+            android:name="com.locshiraz"
+            android:label="@string/title_activity_locshiraz" />
+        <activity
+            android:name="com.lochaveli"
+            android:label="@string/title_activity_lochaveli" />
+        <activity
+            android:name="com.lococococham"
+            android:label="@string/title_activity_lococococham" />
+        <activity android:name="com.keyanirestrutrant" />
+        <activity android:name="com.phoneshirazrestrutrant" />
+        <activity android:name="com.phonehavelirestrutrant" />
+        <activity android:name="com.phonecocochan" />
+        <activity android:name="com.dkeyani" />
+        <activity android:name="com.dshiraz" />
+        <activity android:name="com.dhavelirestrutrant" />
+        <activity android:name="com.dcocochan" />
+        <activity android:name="com.detailokara" />
+        <activity android:name="com.phoneokara" />
+        <activity
+            android:name="com.locokara"
+            android:label="@string/title_activity_locokara" />
+        <activity android:name="com.dokara" />
+        <activity android:name="com.javamail" />
+        <activity android:name="com.detailmoven" />
+        <activity android:name="com.phonemoven" />
+        <activity
+            android:name="com.locmovenpick"
+            android:label="@string/title_activity_locmovenpick" />
+        <activity android:name="com.dmoven" />
+        <activity android:name="com.dmarriet" />
+        <activity android:name="com.detailtalip" />
+        <activity android:name="com.dsam" />
+        <activity android:name="com.detailsamimabucket" />
+        <activity android:name="com.phonealaroos" />
+        <activity
+            android:name="com.localarros"
+            android:label="@string/title_activity_localarros" />
+        <activity android:name="com.dalaroosmarriagehall" />
+        <activity
+            android:name="com.loctalip"
+            android:label="@string/title_activity_loctalip" />
+        <activity android:name="com.phonetalip" />
+        <activity android:name="com.dtalipbauckethall" />
+        <activity android:name="com.phonesamimabucket" />
+        <activity
+            android:name="com.locsamimabuckethall"
+            android:label="@string/title_activity_locsamimabuckethall" />
+        <activity android:name="com.dsaimabuckethall" />
+        <activity
+            android:name="com.loclahorepalce"
+            android:label="@string/title_activity_loclahorepalce" />
+        <activity
+            android:name="com.locmashhalmarriagehall"
+            android:label="@string/title_activity_locmashhalmarriagehall" />
+        <activity
+            android:name="com.lochiltonmarriagehall"
+            android:label="@string/title_activity_lochiltonmarriagehall" />
+        <activity
+            android:name="com.locparadise"
+            android:label="@string/title_activity_locparadise" />
+        <activity android:name="com.videov" />
+        <activity
+            android:name="com.locmillianmarriagehall"
+            android:label="@string/title_activity_locmillianmarriagehall" />
+        <activity
+            android:name="com.aluroosweddinghall"
+            android:label="@string/title_activity_aluroosweddinghall" />
+        <activity
+            android:name="com.locmarriethall"
+            android:label="@string/title_activity_locmarriethall" />
+        <activity android:name="com.marriethotel" />
+        <activity
+            android:name="com.loctalipbaquethall"
+            android:label="@string/title_activity_loctalipbaquethall" />
+        <activity android:name="com.phonemovenpick" />
+        <activity android:name="com.phoneMashaallahmarriage" />
+        <activity android:name="com.alarrosmobile" />
+        <activity android:name="com.marrietphone" />
+        <activity android:name="com.phonetalipbaethall" />
+        <activity android:name="com.quettacityphone" />
+        <activity
+            android:name="com.loccityhallqe"
+            android:label="@string/title_activity_loccityhallqe" />
+        <activity android:name="com.dcityhallquett" />
+        <activity android:name="com.spinner" />
+        <activity android:name="com.scancodeactivity" />
+        <activity android:name="com.qrcode" />
+        <activity android:name="com.sms" />
+        <activity android:name="com.detailmeraki" />
+        <activity android:name="com.recoclas" />
+        <activity android:name="com.classification" />
+        <activity android:name="com.phonemeraki" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity
+            android:name="com.merakiloc"
+            android:label="@string/title_activity_merakiloc" />
+        <activity android:name="com.dmeraki" />
+        <activity
+            android:name="com.lochungry"
+            android:label="@string/title_activity_lochungry" />
+        <activity android:name="com.phonehuntry" />
+        <activity android:name="com.progressbar" />
+        <activity android:name="com.detailhuntry" />
+        <activity android:name="com.dhuntry" />
+        <activity android:name="com.phonemashallah" />
+        <activity android:name="com.detailmashallah" />
+        <activity
+            android:name="com.locmashallah"
+            android:label="@string/title_activity_locmashallah" />
+        <activity android:name="com.dmashallahmarriagehall" />
+        <activity android:name="com.hiltonphonenumber" />
+        <activity
+            android:name="com.hiltonloc"
+            android:label="@string/title_activity_hiltonloc" />
+        <activity android:name="com.detailhilton" />
+        <activity android:name="com.dhiltonmarriagehall" />
+        <activity android:name="com.facebookads" />
+        <activity android:name="com.admmb" />
+        <activity android:name="com.detailsmuuit" />
+        <activity android:name="com.exitdialogbox" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <activity
+            android:name="com.lochotelembisidor"
+            android:label="@string/title_activity_lochotelembisidor" />
+        <activity android:name="com.Phonesamima" />
+        <activity android:name="com.dsamimabuckethall" />
+        <activity android:name="com.detailcityhall" />
+        <activity
+            android:name="com.cityhallloc"
+            android:label="@string/title_activity_cityhallloc" />
+        <activity android:name="com.Phonecityh" />
+        <activity android:name="com.dlahorepalace" />
+        <activity android:name="com.detailcontinantal" />
+        <activity android:name="com.detailspof1" />
+        <activity android:name="com.lahoreplacephone" />
+        <activity android:name="com.cardview" />
+        <activity
+            android:name="com.loccityhallquetta"
+            android:label="@string/title_activity_loccityhallquetta" />
+        <activity android:name="com.dcityhallquetta" />
+        <activity android:name="com.detaipof" />
+        <activity
+            android:name=".contiloc"
+            android:label="@string/title_activity_contiloc" />
+        <activity android:name="com.pofnumber" />
+        <activity android:name="com.detailspof" />
+        <activity android:name="com.imageslide" />
+        <activity android:name="com.customdialog" />
+        <activity android:name="com.rec" />
+        <activity android:name="com.recommendation" />
+        <activity android:name="com.tentservice" />
+        <activity android:name="com.Bankallfallahwebsite" />
+        <activity android:name="com.dcontinantal" />
+        <activity android:name="com.paymentt" />
+        <activity android:name="com.restrutrant" />
+        <activity android:name="com.dcontinatal" />
+        <activity android:name="com.dpof" />
+        <activity android:name="com.hotellist" />
+        <activity android:name=".usmans" />
+        <activity android:name="com.feedback" />
+        <activity android:name=".Bud" />
+        <activity android:name=".Instruction" />
+        <activity android:name=".ratingstar" />
+        <activity
+            android:name="com.Mapsconti"
+            android:label="@string/title_activity_mapsconti" />
+        <activity
+            android:name="com.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name="com.locpof"
+            android:label="@string/title_activity_locpof" />
+        <activity android:name="com.Rewarded" />
+        <activity android:name="com.Payment" />
+        <activity android:name="com.Margala" />
+        <activity android:name="com.Gmail" />
+        <activity android:name="com.wahconti" />
+        <activity android:name="com.Phone" />
+        <activity android:name="com.Budget" />
+        <activity android:name="com.Location" />
+        <activity android:name="com.serina" />
+        <activity android:name="com.Movenpick" />
+        <activity android:name="com.Topaz" />
+        <activity android:name="com.ordanance" />
+        <activity android:name="com.Marhaba" />
+        <activity android:name="com.marriet" />
+        <activity android:name="com.Continantal" />
+        <activity android:name="com.Pof" />
+        <activity android:name="com.wedding" />
+        <activity android:name="com.UI" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Sample Ad Manager app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>
