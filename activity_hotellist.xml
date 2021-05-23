@@ -4,16 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="com.hotellist">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <EditText
+
+        <TextView
             android:id="@+id/threestar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint=" 3 star hotel"
+            android:layout_gravity="center"
+            android:text=" 3 star hotel"
+            android:textSize="50dp"
             android:ems="10" />
         <ImageView
             android:layout_width="match_parent"
@@ -22,6 +27,12 @@
             android:adjustViewBounds="true"
             android:id="@+id/hpof"
             android:src="@drawable/pof"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" POF Hotel"
+            android:textSize="30dp"
+            android:ems="10" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -30,6 +41,12 @@
             android:adjustViewBounds="true"
             android:id="@+id/hcontinantal"
             android:src="@drawable/continantal"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Continantal"
+            android:textSize="30dp"
+            android:ems="10" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,6 +54,12 @@
             android:adjustViewBounds="true"
             android:id="@+id/hlahorepalace"
             android:src="@drawable/lahorepalace"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Lahore Palace"
+            android:textSize="30dp"
+            android:ems="10" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -44,6 +67,12 @@
             android:adjustViewBounds="true"
             android:id="@+id/samimabuckethall"
             android:src="@drawable/samimabuckethall"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Saima Bucket Hall"
+            android:textSize="30dp"
+            android:ems="10" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,6 +80,12 @@
             android:adjustViewBounds="true"
             android:id="@+id/hiltonmarriagehall"
             android:src="@drawable/hiltonmarriagehall"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Hilton Marriage Hall"
+            android:textSize="30dp"
+            android:ems="10" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -58,6 +93,12 @@
             android:adjustViewBounds="true"
             android:id="@+id/mashhallah"
             android:src="@drawable/mashallahmarriagehall"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Mashallah Marriage Hall"
+            android:textSize="30dp"
+            android:ems="10" />
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,11 +106,18 @@
             android:adjustViewBounds="true"
             android:id="@+id/cituhallquetta"
             android:src="@drawable/cituhallquetta"/>
-        <EditText
-            android:id="@+id/fourstar"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint=" 4 star hotel"
+            android:text=" City Hall Quetta"
+            android:textSize="30dp"
+            android:ems="10" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 4 star hotel"
+            android:textSize="50dp"
             android:ems="10" />
 
 
@@ -80,14 +128,22 @@
             android:adjustViewBounds="true"
             android:id="@+id/marriethotel"
             android:src="@drawable/marriethotel"/>
-
-
-        <EditText
-            android:id="@+id/fivestar"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint=" 5 star hotel"
+            android:text=" Marriot hotell"
+            android:textSize="30dp"
             android:ems="10" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 5 star hotel"
+            android:textSize="50dp"
+            android:ems="10" />
+
 
         <ImageView
             android:id="@+id/movenpick"
@@ -96,24 +152,12 @@
             android:scaleType="fitStart"
             android:adjustViewBounds="true"
             android:src="@drawable/movenpickhotelkarachi"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Movenpick Hotel"
+            android:textSize="30dp"
+            android:ems="10" />
 
     </LinearLayout>
     
