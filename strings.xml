@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <string name="APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ADMOB_UNIT_ID">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="title_activity_locpof">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_mapsconti">Map</string>
+    <string name="title_activity_contiloc">Map</string>
+    <string name="title_activity_loccityhallquetta">Map</string>
+    <string name="title_activity_cityhallloc">Map</string>
+    <string name="title_activity_lochotelembisidor">Map</string>
+    <string name="title_activity_hiltonloc">Map</string>
+    <string name="title_activity_locmashallah">Map</string>
+    <string name="title_activity_lochungry">Map</string>
+    <string name="title_activity_merakiloc">Map</string>
+    <string-array name="locations">
+        <item>pof</item>
+        <item>continantal</item>
+        <item>wahcontinantal</item>
+        <item>marriet</item>
+        <item>pearl</item>
+    </string-array>
+    <string name="title_activity_loccityhallqe">Map</string>
+    <string name="title_activity_loctalipbaquethall">Map</string>
+    <string name="title_activity_locmarriethall">Map</string>
+    <string name="title_activity_aluroosweddinghall">Map</string>
+    <string name="title_activity_locmillianmarriagehall">Map</string>
+    <string name="title_activity_locparadise">Map</string>
+    <string name="title_activity_lochiltonmarriagehall">Map</string>
+    <string name="title_activity_locmashhalmarriagehall">Map</string>
+    <string name="title_activity_loclahorepalce">Map</string>
+    <string name="title_activity_locsamimabuckethall">Map</string>
+    <string name="title_activity_loctalip">Map</string>
+    <string name="title_activity_localarros">Map</string>
+    <string name="title_activity_locmovenpick">Map</string>
+    <string name="title_activity_locokara">Map</string>
+    <string name="title_activity_lococococham">Map</string>
+    <string name="title_activity_lochaveli">Map</string>
+    <string name="title_activity_locshiraz">Map</string>
+    <string name="title_activity_lockeyanirestrutrant">Map</string>
+    <string name="title_activity_lochanif">Map</string>
+    <string name="title_activity_lochaidery">Map</string>
+    <string name="title_activity_locpakistan">Map</string>
+    <string name="title_activity_locmezban">Map</string>
+    <string name="title_activity_locdaniyal">Map</string>
+</resources>
