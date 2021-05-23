@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/wq"
+    tools:context="com.wedding">
+
+
+
+
+
+
+
+        <Button
+            android:id="@+id/btn_pof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pof hotel"/>
+        <Button
+            android:id="@+id/btn_conti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="continental"/>
+
+        <Button
+            android:id="@+id/mar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marriet hotel"
+            />
+    <Button
+        android:id="@+id/Mar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marhaba Hotel"
+        />
+    <Button
+        android:id="@+id/margala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="margala hotel"
+        />
+    <Button
+        android:id="@+id/club"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ordance club"
+        />
+    <Button
+        android:id="@+id/topaz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topaz marquee"
+        />
+    <Button
+        android:id="@+id/movenpick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="movenpick"
+        />
+    <Button
+        android:id="@+id/serina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serena Hotel Quetta"
+        />
+    <Button
+        android:id="@+id/hilton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hilton Marriage Hall"
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ali"
+    tools:context="com.Topaz">
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:text="R 2 Khayaban-e-Firdousi, Block D2 Block D 2 Phase 1 Johar Town, Lahore, Punjab"/>
+    <TextView
+        android:id="@+id/topi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:text=" 0336 3300600"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/topaz"
+
+        />
+    <Button
+        android:id="@+id/bt_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call"
+        />
+
+
+
+
+</LinearLayout>

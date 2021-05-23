@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ali"
+    tools:context="com.wahconti">
+    <TextView
+        android:id="@+id/wahconti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:text="Near Mughal Gardens , G.T Road , Wah Cantt"/>
+    <TextView
+        android:id="@+id/wahcontwi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        android:text="(051) 4923031"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/continantal"
+
+        />
+    <Button
+        android:id="@+id/bt_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call"
+        />
+    <Button
+        android:id="@+id/bt_rew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ads"
+        />
+    <Button
+        android:id="@+id/loc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="loc and branches"
+        />
+
+
+</LinearLayout>
